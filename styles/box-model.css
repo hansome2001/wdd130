@@ -1,0 +1,9 @@
+.callout {
+     max-width: 400px;
+     margin: 10px;
+     border: 1px solid rgp(0 0 0 / 0.1);
+     padding: 15px;
+     border-radius: 5px;
+     background-color: #247;
+    color: #fff;
+}
