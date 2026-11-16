@@ -1,3 +1,12 @@
+* {
+ margin: 0;
+ padding: 0; 
+ box-sizing: border-box;
+}
+body {
+ font-size: 16px;
+ font-family: Roboto, Arial, sans-serif;
+}
 nav {
  background-color: darkblue;
  padding: 10px;
@@ -11,6 +20,7 @@ nav a {
 
 h1 {
  color: darkblue;
+ padding: .5rem
 }
 
 img {
@@ -37,6 +47,7 @@ aside {
  background-color: #eee;
  color:#333;
  text-align: center;
+ position: relative;
 }
 
 aside img {
@@ -47,10 +58,30 @@ aside img {
 main img {
  width: 150px;
  height: auto;
+ float: right;
+ margin: 0 0 1rem;
+}
+
+p {
+ margin: 1rem;
+
 }
 
 footer {
  margin-top: 15px;
  border-top: 1px solid #000;
  text-align: center;
+}
+
+/* class selector */
+.box{
+ margin: 1rem;
+ border: 1px solid rgb(0 0 0 .1);
+ background-color: #eee;
+ color: #000;
+}
+
+.indent {
+ padding-left: 1rem;
+ 
 }
