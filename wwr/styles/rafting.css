@@ -20,7 +20,7 @@ header {
 
 body {
  font-family: var(--body-font);
- color: var(--accent-color); 
+ color: var(--primary-color); 
 }
 
 header, main, footer {
@@ -38,8 +38,19 @@ nav, p, section, article {
  background-color: var(--secondary-color)
 }
 
-.socialmdia a {
+.socialmedia a {
      text-decoration: none;
+}
+
+.socialmedia {
+ display: flex;
+ justify-content: middle;
+ gap: 15px;
+}
+
+.socialmedia img {
+ width: 30px;
+ height: 30px;
 }
 
 .hero {
@@ -62,4 +73,52 @@ h1 {
 .hero article img {
  float: right;
  width: 125px;
+}
+
+footer {
+ text-align: center;
+}
+
+.socialmedia {
+ display: flex;
+ justify-content: center;
+ gap: 15px;
+}
+
+.socialmedia img {
+ width: 30px;
+ height: 30px;
+}
+
+footer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 10px;
+}
+
+footer {
+ width: 840px;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 10px;
+}
+
+footer p {
+ margin: 0;
+ padding: 0;
+}
+
+.socialmedia {
+ display: flex;
+ gap: 10px;
+ margin: 0;
+ padding: 0;
+}
+
+.socialmedia img {
+ width: 30px;
+ height: 30px;
 }
